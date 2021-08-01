@@ -22,7 +22,7 @@ class Car {
     }
 
     public void setColor(String colorAuto) {
-         color = colorAuto;
+        color = colorAuto;
 
     }
 
@@ -30,10 +30,11 @@ class Car {
         model = modelAuto;
     }
 
-    public void info(){
+    public void info() {
         System.out.println("Это автомобиль");
     }
-    public int yearDifference(int inputYear){
+
+    public int yearDifference(int inputYear) {
         return inputYear - year;
     }
 

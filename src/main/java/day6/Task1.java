@@ -7,13 +7,13 @@ public class Task1 {
         car.setColor("Blue");
         car.setModel("BMW");
 
-        Motorbike motorbike = new Motorbike(2012,"Red","BMW");
+        Motorbike motorbike = new Motorbike(2010,"Red","BMW");
 
         car.info();
         motorbike.info();
 
-        System.out.println(car.yearDifference(2021));
-        System.out.println(motorbike.yearDifference(2021));
+        System.out.println(car.yearDifference(2020));
+        System.out.println(motorbike.yearDifference(2020));
     }
 }
 
